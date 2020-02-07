@@ -8,7 +8,7 @@ submitInput.addEventListener('submit',getInfo);
 
 function getInfo(searchInput) {
 	 searchInput.preventDefault();
-	fetch(`https://api.github.com/search/${searchInput.value}`, 
+	fetch(`https://api.github.com/search/users?q=${searchInput.value}`, 
 	 {
   method: "GET",
   headers: {
