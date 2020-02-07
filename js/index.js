@@ -3,7 +3,7 @@ let searchInput=document.querySelector("[name='search']");
 let submitInput=document.querySelector("[name='submit']");
 //display info
 
-submitInput.addEventListener('click',getInfo);
+submitInput.addEventListener('submit',getInfo);
 
 
 function getInfo(searchInput) {
